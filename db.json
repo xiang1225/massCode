@@ -1,0 +1,53 @@
+{
+  "folders": [
+    {
+      "id": "S7pwXr5S",
+      "name": "Default",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1658994673973,
+      "updatedAt": 1658994673973
+    }
+  ],
+  "snippets": [
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "",
+      "tagsIds": [],
+      "description": null,
+      "name": "休眠",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "value": "https://github.com/xiang1225/massCode.git",
+          "language": "plain_text"
+        }
+      ],
+      "id": "2bAlTFzV",
+      "createdAt": 1658994706053,
+      "updatedAt": 1658994718894
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "",
+      "tagsIds": [],
+      "description": null,
+      "name": "休眠",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "value": "/** 休眠 */\nexport const sleep = (time: number) => {\n  let id: NodeJS.Timeout;\n  return new Promise((resolve) => {\n    id = setTimeout(() => {\n      clearTimeout(id);\n      resolve(true);\n    }, time * 1000);\n  });\n};",
+          "language": "typescript"
+        }
+      ],
+      "id": "L0CzdnJ1",
+      "createdAt": 1658994757320,
+      "updatedAt": 1658994784420
+    }
+  ],
+  "tags": []
+}
